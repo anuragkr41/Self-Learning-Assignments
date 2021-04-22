@@ -7,6 +7,9 @@ public class TypeCast {
 		
 		int integerValue=10;
 		byte byteValue = (byte)integerValue; //Explicit Cast
+		short shortValue = (short)integerValue;
+		
+		System.out.println("Short value after type cast is "+ shortValue);
 		
 		
 //		Implicit cast
@@ -20,6 +23,9 @@ public class TypeCast {
 		
 		System.out.println("The value of long is "+longValue);
 		System.out.println("The value of double is " + doubleValue);
+		
+		
+		
 
 	}
 
